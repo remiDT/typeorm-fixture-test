@@ -59,6 +59,10 @@ create a fixture.config.json file in project root directory
 ### example with jest
 
 ```
+...
+import loadFixturesHelper from "typeorm-fixtures-test";
+...
+
 beforeAll(async ()=>{
     // Init typeorm database connection
     await createConnection()
