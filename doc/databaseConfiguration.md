@@ -3,9 +3,9 @@ Database Configuration
 You can use .env, ormconfig.json or a js object.    
 If you're using nestjs, the js object is the best way. .env and ormconfig may generate entity errors. 
 
-##PostgreSQL
+## PostgreSQL
 
-###.env
+### .env
 
 ```
 TYPEORM_CONNECTION = postgres
@@ -18,7 +18,7 @@ TYPEORM_SYNCHRONIZE = false
 TYPEORM_ENTITIES = src/entity/**/*.ts
 ```
 
-###ormconfig.json
+### ormconfig.json
 
 ```
 {
@@ -33,9 +33,9 @@ TYPEORM_ENTITIES = src/entity/**/*.ts
 }
 ```
 
-##SQLite
+## SQLite
 
-###.env
+### .env
 
 ```
 TYPEORM_CONNECTION = sqlite
@@ -45,7 +45,7 @@ TYPEORM_LOGGING = false
 TYPEORM_ENTITIES = src/entity/**/*.ts
 ```
 
-###ormconfig.json
+### ormconfig.json
 ```
 {
 "type": "sqlite",
@@ -56,9 +56,9 @@ TYPEORM_ENTITIES = src/entity/**/*.ts
 ```
 
 
-##MySQL
+## MySQL
 
-###.env
+### .env
 
 ```
 TYPEORM_CONNECTION = mysql
@@ -73,7 +73,7 @@ TYPEORM_ENTITIES = src/entity/**/*.ts
 TYPEORM_DRIVER_EXTRA = '{"multipleStatements": true}'
 ```
 
-###ormconfig.json
+### ormconfig.json
 
 ```
 {
