@@ -1,1 +1,1 @@
-export * from './loadFixturesHelper';
+export {default} from './loadFixturesHelper';
