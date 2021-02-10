@@ -95,8 +95,8 @@ describe('GET /articles', function() {
 
 
 ## Working examples
-You can find (a boring) articles/tags/users example [here](#).  
-If you're using nestjs [here is an example](#).
+You can find (a boring) articles/tags/users example [here](https://github.com/remiDT/typeorm-fixture-test-demo).  
+If you're using nestjs [here is an example](#) (Coming Soon).
 
 
 ## Documentation
