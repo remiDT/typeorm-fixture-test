@@ -1,6 +1,6 @@
 {
   "name": "typeorm-fixtures-test",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "run test with yaml fixtures",
   "main": "dist/index.js",
   "keywords": [
@@ -13,6 +13,9 @@
     "fixture",
     "fixtures",
     "integration",
+    "database",
+    "nest",
+    "real data",
     "yaml",
     "data"
   ],
@@ -52,12 +55,9 @@
     "folder-hash": "^4.0.0",
     "fs-extra": "^9.1.0",
     "mkdirp": "^1.0.4",
-    "mysql2": "^2.2.5",
-    "pg": "^8.5.1",
     "prepend-file": "^2.0.0",
     "reflect-metadata": "^0.1.10",
     "replace-in-file": "^6.1.0",
-    "sqlite3": "^4.2.0",
     "typeorm": "^0.2.30",
     "uuid": "^8.3.2",
     "typeorm-fixtures-cli": "^1.9.1"
